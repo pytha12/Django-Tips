@@ -6,7 +6,7 @@ from django.db import models
 # In a lot of cases it is fine to leave them this way. 
 # However, if we use these same fields yet again it would be a good idea to use an abstract base class.
 # 
-# We now have a ConactInfo abstract base class because we added abstract = True to its Meta. 
+# We now have a ContactInfo abstract base class because we added abstract = True to its Meta. 
 # This will tell django and the migration system this isn't a model we can use to store data with.
 # 
 # However, we can inherit from it so that each model that we subclass with it has the fields, methods, and properties of the abstract model. 
